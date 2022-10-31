@@ -27,6 +27,12 @@ export default {
       type: "string",
       validation: (Rule) => Rule.required(),
     },
+		{
+      name: "fontSizeLargeDesktop",
+      title: "Font Size Large Desktop",
+      type: "string",
+      validation: (Rule) => Rule.required(),
+    },
     {
       name: "fontSizeDesktop",
       title: "Font Size Desktop",
@@ -63,6 +69,16 @@ export default {
       title: "Social Media",
       type: "array",
       of: [{ type: "socialMediaLink" }],
+    },
+		{
+      title: "Showreel",
+      name: "video",
+      type: "mux.video"
+    },
+		{
+      title: "Portfolio",
+      name: "portfolio",
+      type: "file",
     },
   ],
   preview: {
