@@ -9,6 +9,11 @@ export default {
       title: "Background Colour",
       type: "color",
     },
+		{
+      name: "offscreenColour",
+      title: "Offscreen Colour",
+      type: "color",
+    },
     {
       name: "password",
       title: "Password",
