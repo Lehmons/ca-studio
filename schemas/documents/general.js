@@ -10,8 +10,18 @@ export default {
       type: "color",
     },
 		{
+      name: "textColour",
+      title: "Text Colour",
+      type: "color",
+    },
+		{
       name: "offscreenColour",
       title: "Offscreen Colour",
+      type: "color",
+    },
+		{
+      name: "offscreenTextColour",
+      title: "Offscreen Text Colour",
       type: "color",
     },
     {
