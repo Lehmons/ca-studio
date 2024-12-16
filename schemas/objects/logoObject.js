@@ -75,6 +75,12 @@ export default {
       type: "text",
       validation: (Rule) => Rule.required(),
     },
+		{
+      title: "Logo 13",
+      name: "logo13",
+      type: "text",
+      validation: (Rule) => Rule.required(),
+    },
   ],
   preview: {
     select: {
